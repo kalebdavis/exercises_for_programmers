@@ -4,7 +4,6 @@
 int main() {
   int tipRate = 0;
   float billAmount, tip, total = 0.0;
-  char inp[100];
   printf("What is the bill amount? ");
   while(scanf("%f", &billAmount) != 1){
     printf("Please enter a valid number for the bill amount.\n");
