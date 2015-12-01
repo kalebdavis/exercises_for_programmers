@@ -1,8 +1,8 @@
 // C Currency Conversion
 #include <stdio.h>
+#include <string.h>
 
 int main() {
-  convert_euros();
   convert_anything();
   return 0;
 }
